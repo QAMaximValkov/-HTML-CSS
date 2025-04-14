@@ -1,0 +1,99 @@
+/* Общие стили */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa; /* Светлый оттенок белого с легким намеком на бежевый */
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #ffffff; /* Оставляем белый цвет фона основного контейнера */
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Шапка */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    background-color: #fefcea; /* Очень светлый бежевый фон шапки */
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.photo-block {
+    flex-shrink: 0;
+}
+
+.photo {
+    width: 170px; /* Уменьшили ширину */
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+    border: 2px solid #dccab8; /* Бежевые рамки вокруг фото */
+}
+
+.name {
+    font-size: 32px;
+    margin-bottom: 200px;
+    margin-right: 200px;
+    color: #000000; /* Черный цвет */
+}
+
+/* Основные секции */
+.content section {
+    margin-bottom: 40px;
+}
+
+.about-me-section {
+    text-align: justify;
+    background-color: #fefcea; /* Легкий бежевый оттенок фона для дополнительной выразительности */
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Раздел опыта работы */
+.experience-section ul {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: justify; /* Тут задаем выравнивание по ширине */
+}
+
+.experience-section ul li {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed #dbcbad; /* Тонкая бежевая линия внизу пунктов */
+}
+
+.experience-section ul li h3 {
+    margin-bottom: 10px;
+    color: #6a4c3b; /* Более насыщенный темно-коричневый заголовок */
+}
+
+.experience-section ul li p {
+    text-align: inherit; /* Наследует выравнивание от родительского элемента */
+}
+
+.education-section {
+    text-align: justify; /* Тут задаем выравнивание по ширине */
+    background-color: #fefcea; /* Тот же легкий бежевый оттенок для фона */
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Футер */
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    color: #777;
+    background-color: #fdfbfb; /* Легкий бежевый фон футера */
+}
